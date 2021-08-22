@@ -1,0 +1,29 @@
+
+program start{
+	main class: MainClass{
+		field: access/ type=int[]/ access modifier=private
+		class method: main/ return type=bool/ access modifier=public{
+			var: i
+			var: vr1
+			var: var2
+		}
+	}
+	class: BinarySearch/ class parent: MainClass{
+		field: data1/ type=string[]/ access modifier=private
+		field: data2/ type=bool[]/ access modifier=public
+		field: data3/ type=int[]/ access modifier=private
+		field: data4/ type=string[]/ access modifier=public
+		class method: myPrint/ return type=string/ access modifier=public{
+			var: a1
+			var: a2
+		}
+	}
+	class: Sum{
+		field: myField/ type=int[]/ access modifier=public
+		class method: mySum/ return type=int/ access modifier=public{
+		}
+		class method: mySum2/ return type=int/ access modifier=public{
+			var: math
+		}
+	}
+}

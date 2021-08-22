@@ -1,0 +1,28 @@
+entry class MainClass :
+    function main() returns int :
+        var i = 0;
+        if( i ) begin
+        var ff = 4;
+            continue;
+            break;
+        end
+        //this is a comment
+        var vr1 = 1, var2 = 2;
+        while( i < var1 ) begin
+            print(i);
+        end
+        return false;
+    end
+end
+
+
+class BinarySearch inherits MainClass:
+    private field data int[];
+
+    public function myPrint( value : string ) returns string:
+        print("a");
+        return value;
+    end
+
+
+end

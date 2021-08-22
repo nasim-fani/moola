@@ -1,0 +1,14 @@
+
+program start{
+	main class: MainClass{
+		class method: main/ return type=int/ access modifier=public{
+			var: i
+			var: vr1
+		}
+	}
+	class: BinarySearch/ class parent: MainClass{
+		field: data/ type=int[]/ access modifier=private
+		class method: myPrint/ return type=string/ access modifier=public{
+		}
+	}
+}

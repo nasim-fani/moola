@@ -1,0 +1,60 @@
+entry class MainClass :
+    private field access int[];
+    function main() returns bool :
+    var i1 = 0;
+        //this is a comment
+        var vr1 = 1;
+        var var2 = 2;
+        while( i2 < var1 ) begin
+            var aa=2;
+            i3++;
+            print(i);
+        end
+        if (i4 == 0)
+        begin
+        var bb = 3;
+        var cc = 4;
+        i5 = 1;
+        end
+        else
+        begin
+        begin
+        var zz = 4;
+        end
+        end
+
+        return false;
+    end
+end
+
+
+class BinarySearch inherits MainClass:
+    private field data1 string[];
+    public field data2 bool[];
+    private field data3 int[];
+
+
+    public function myPrint( value : string ) returns string:
+
+        var a1=1;
+        var a2=2;
+        print("a");
+        return value;
+    end
+
+
+end
+
+
+class Sum:
+    public field myField int[];
+    public function mySum( value2 : int ) returns int:
+         value = value+1;
+         return value;
+    end
+    public function mySum2( value1 : int ) returns int:
+        var math = _mySum(1);
+        math++;
+        return math;
+    end
+end
